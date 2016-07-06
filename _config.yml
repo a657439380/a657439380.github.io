@@ -1,0 +1,101 @@
+# Site settings
+title: 咕咚
+SEOTitle: 咕咚的个人站点
+header-img: assets/header_image.jpg
+email: gudong.name@gmail.com
+description: "Android Developer 关注移动开发 独立开发者 篮球粉"
+keyword: "咕咚 咕咚翻译 毛瑞斌 大侠咕咚 咕咚的博客 徐生梅的男朋友 甘肃"
+url: "http://gudong.name"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+# SNS settings
+RSS: false
+twitter_username:   maoruibin9035
+weibo_username:     maoruibin
+zhihu_username:     maoruibin
+github_username:    maoruibin
+# facebook_username:
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title.html
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: maoruibin
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: de1df75db196971264bd87815c96f646
+# Google Analytics
+ga_track_id: 'UA-64640288-1'            # Format: UA-xxxxxx-xx
+ga_domain: gudong.name
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Android Developer"
+sidebar-avatar: /assets/profile_head.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Drakeet",
+        href: "http://drakeet.me"
+    },{
+        title: "代码家",
+        href: "http://blog.daimajia.com"
+    },{
+        title: "五道口宅男",
+        href: "http://hujiaweibujidao.github.io/"
+    },{
+        title: "汤奇",
+        href: "http://itangqi.me/"
+    },{
+        title: "吴小龙同学",
+        href: "http://wuxiaolong.me/"
+    },{
+        title: "程序亦非猿",
+        href: "http://yifeiyuan.me/"
+    },{
+        title: "Ailurus",
+        href: "http://www.easydone.cn/"
+    }
+]
