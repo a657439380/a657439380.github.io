@@ -3,18 +3,18 @@ title: cloud.eve
 SEOTitle: 恐惧源于未知
 header-img: assets/header_image.jpg
 email: luozm90@163.com
-description: "Android Developer 关注移动开发 独立开发者 篮球粉"
-keyword: "咕咚 咕咚翻译 毛瑞斌 大侠咕咚 咕咚的博客 徐生梅的男朋友 甘肃"
-url: "http://gudong.name"              # your host, for absolute URL
+description: "java 工程师，全栈工程师，机器学习入门者，关注视频领域，also a dotas"
+keyword: "北京 视频搜索 机器学习 全栈工程师"
+url: "http://a657439380.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # SNS settings
-RSS: false
-twitter_username:   maoruibin9035
-weibo_username:     maoruibin
-zhihu_username:     maoruibin
-github_username:    maoruibin
+RSS: true
+twitter_username:   a657439380
+weibo_username:     cloud_eve
+zhihu_username:     qing-fu
+github_username:    a657439380
 # facebook_username:
 
 # Build settings
@@ -47,7 +47,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: maoruibin
+duoshuo_username: cloudeve
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -63,7 +63,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Android Developer"
+sidebar-about-description: "java developer"
 sidebar-avatar: /assets/profile_head.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
