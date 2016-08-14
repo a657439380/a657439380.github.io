@@ -1,7 +1,7 @@
 ---
 layout: post
-author: 咕咚
-title: "博客更新日志"
+author: cloud.eve
+title: "往事如烟"
 description: "利用Github搭建博客后,我写的第一篇博客"
 catalog:    true
 cover: "zzz"
@@ -22,7 +22,7 @@ tags:	Jekyll
 今天已经修改自己博客的主题为另一个主题了
 
 ### 2016/02/29
-隐藏了post 页面的 tag、category 点击相应，因为 jekyll archive 不支持 Github Page   
+隐藏了post 页面的 tag、category 点击相应，因为 jekyll archive 不支持 Github Page
 使用了新的代码高亮样式 减小了 padding 值
 
 ### 2016/02/26
@@ -34,7 +34,7 @@ tags:	Jekyll
 
 修改代码块的主题样式在 _include/head.html 文件中修改
 
-可以再 [bootcdn](http://www.bootcdn.cn/highlight.js/)下载    
+可以再 [bootcdn](http://www.bootcdn.cn/highlight.js/)下载
 
         <!-- thanks to http://www.bootcdn.cn/lightbox2/      -->
         <!-- thanks to http://www.bootcdn.cn/highlight.js/   -->
@@ -101,7 +101,7 @@ tags:	Jekyll
       cover: "zzz"
       不设置
 
-四种设置分别对应下面的四种表现    
+四种设置分别对应下面的四种表现
 
 * 在博文中设置cover属性为assert下面的图片，必须是assets下面
 此时文章头部背景将会是一张大图
@@ -119,7 +119,7 @@ tags:	Jekyll
         theme_color: "#607D8B"
 
 * 在博文中不设置cover属性
-此时文章头部将不会显示任何大背景色，只有一个分割线        
+此时文章头部将不会显示任何大背景色，只有一个分割线
 
 ### 2015/10/25
 
